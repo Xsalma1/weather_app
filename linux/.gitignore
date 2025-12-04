@@ -1,0 +1,20 @@
+flutter/ephemeral
+# Dart / Flutter
+.dart_tool/
+.build/
+.packages
+.pub/
+.idea/
+.vscode/
+build/
+
+# Android
+**/android/.gradle/
+*/android/.iml
+
+# iOS
+**/ios/Pods/
+
+# Secrets / API keys
+lib/config/constants.dart
+.env
